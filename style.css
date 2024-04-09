@@ -54,6 +54,14 @@ main {
   gap: 1rem;
 }
 
+.blog-preview-card:hover {
+  cursor: pointer;
+}
+
+.blog-preview-card:hover .blog-title {
+  text-decoration: underline;
+}
+
 .tag {
   background-color: var(--clr-primary-yellow);
   width: fit-content;
